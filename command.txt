@@ -1,0 +1,1 @@
+php makepot.php wp-theme ../wp-content/themes/THEMEFOLDER ../wp-content/themes/THEMEFOLDER/languages/THEMESLUG.pot
