@@ -46,7 +46,25 @@ To create a language POT (Portable Object Template) file for your WordPress plug
 Replace 'your-plugin-text-domain' with the unique text domain for your plugin.
 
 ## Make tools folder
-3. Make tools folder `tools` on you project root folder `domain.test/tools` the put all `WP-i18n` files form git repo
+3. Make tools folder `tools` on you project root folder `domain.test/tools` the put all `WP-i18n` files form git repo.
+```
+Project Root
+├── domain.test
+│ ├── tools
+│
+├── wp-admin
+│
+├── wp-content
+│ ├── themes
+│ ├── plugins
+│ │ └── PLUGIN-FOLDER
+│ │ └── languages
+│ │ ├── PLUGIN-FOLDER.pot
+│ │ ├── your-plugin-fr_FR.po
+│ │ └── your-plugin-fr_FR.mo
+│
+├── wp-includes
+```
 
 ## Navigate to Your project Directory
 4. Navigate to Your project Directory: Open your command prompt or terminal, and navigate to your WordPress directory. For example:
